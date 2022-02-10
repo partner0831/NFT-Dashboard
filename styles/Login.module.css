@@ -1,0 +1,101 @@
+.login_container{
+    background-color: rgb(92, 252, 252);
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image:url('/static/AREA51.gif');
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    resize: horizontal;
+}
+
+.login_card{
+
+    background-color: rgb(13, 94, 44);
+    width: 200px;
+    height: 250px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.sign_in_container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sign_in_container > button{
+
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(7, 76, 224);
+    color: white ;
+    margin: 10px;
+    
+}
+
+.mm_error_msg{
+
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0) ;
+    font-style: italic;
+    text-align: center;
+    font-size: 10px;
+    margin: 5px;
+}
+
+
+.iframe {
+    display: flex;
+    border-style:none;
+    border-radius: 20px;
+    padding-top: 100px;
+    size: 50%;
+}
+
+.user_profile_container{
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    background-image:url('/static/abovemajestic_black.gif');
+    
+    border-radius: 20px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    padding-bottom: 20%;
+    resize: horizontal;
+    min-width: 40%;
+    position: relative;
+
+    
+}
+
+
+
+.abvmjstc_bungallow{
+
+    background-color: rgb(0, 0, 0);
+    background-image:url('/static/bungallow.jpg');
+    border-radius: 20px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    padding-bottom: 66%;
+    resize: horizontal;
+    border: 1px dashed;
+    overflow: auto;
+    max-width: 100%;
+    height: calc(25vh - 15vh);
+}
+

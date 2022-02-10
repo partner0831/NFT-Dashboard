@@ -1,0 +1,19 @@
+.dashboard{
+    background-color: rgb(28, 180, 180);
+    height: 20vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}.dashboardheader{
+
+    flex: 1;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+    background:"purple.400";
+    color: black;
+    align-items: center;
+    
+
+}
